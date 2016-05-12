@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_openwifi"
+            style="@style/Setting_Text"
+            android:text="开启热点" />
+
+        <TextView
+            android:id="@+id/tv_conn_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_opencamera"
+            style="@style/Setting_Text"
+            android:text="开启对方相机" />
+
+        <TextView
+            android:id="@+id/tv_look_conn"
+            style="@style/Setting_Text"
+            android:text="查看连接" />
+
+        <TextView
+            android:id="@+id/tv_file_dir"
+            style="@style/Setting_Text"
+            android:text="文件路径" />
+
+        <TextView
+            android:id="@+id/tv_about_author"
+            style="@style/Setting_Text"
+            android:text="关于作者" />
+
+    </LinearLayout>
+</ScrollView>
